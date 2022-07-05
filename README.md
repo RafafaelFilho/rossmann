@@ -4,12 +4,13 @@
 - [0. Ferramentas Utilizadas](#0-ferramentas-utilizadas)
 - [1. Problemas de Negócio](#1-problemas-de-negócio)
     - [1.1. Contextualização](#11-contextualização)
-    - [1.1. Contextualização](#11-contextualização)
-    - [1.1. Contextualização](#11-contextualização)
+    - [1.2. Necessidade](#12_necessidade)
+    - [1.3. Considerações](#13-considerações)
 - [2. Estratégia de Solução](#2-estratégia-de-solução)
 - [3. Exploratory Data Analysis (Algumas Hipóteses)](#3-exploratory-data-analysis-(algumas-hipóteses))
 - [4. Resultado](#4-resultado)
 - [5. Próximos Passos](#5-próximos-passos)
+- [6. Agradecimento](#5-agradecimento)
 <hr>
 <h2>0. Ferramentas Utilizadas</h2>
 <div style="display: inline_block">
@@ -27,7 +28,7 @@
 <h2>1. Problemas de Negócio</h2>
 <ul>
     <h3>1.1. Contextualização</h3>
-    <p>A Rossmann é uma das maiores cadeias de drogarias da Europa, com cerca de 56.200 funcionários e mais de 4.000 lojas em diversos países. É uma empresa com um grande sortimento de produtos que são oferecidos as seus clientes, incluindo produtos próprios. A companhia está em grande expansão e num ritmo elevado, com grandes investimentos.</p>
+    <p>A Rossmann é uma das maiores cadeias de drogarias da Europa, com cerca de 56.200 funcionários e mais de 4.000 lojas em diversos países. É uma empresa com um grande sortimento de produtos que são oferecidos aos seus clientes, incluindo produtos próprios. A companhia está em grande expansão e num ritmo elevado, com grandes investimentos.</p>
     <h3>1.2. Necessidade</h3>
     <p>O projeto foi desenvolvido a partir da necessidade do CFO da empresa em destinar orçamento para reforma das lojas da rede. Visto que é necessário saber quanto as lojas irão vender para dimensionar o investimento da reforma, o produto de dados de previsão de vendas foi o que mais se destacou para sanar a dor do CFO. Diante dessa situação o diretor pediu ao time de dados uma solução que venha fazer essa previsão de forma mais precisa, rápida e prática, podendo acessar de qualquer lugar com um simples smartphone</p>
     <h3>1.3. Considerações</h3>
@@ -40,8 +41,10 @@
 </ul>
 <hr>
 <h2>2. Estratégia de Solução</h2>
-<p>Criar um modelo de Machine Learning criado através do método CRSIP-DS. Entendendo o problema de negócio, oletando e limpando os dados, criando um dataset único, pensar em hipóteses de negócio para novas features, conferir as hipóteses na análise exploratória de dados (EDA), modelando os dados para a implementação nos algoritimos, implementado-os, avaliando a performance dos mesmos e botando o modelo em produção.</p>
-<img />
+<p>Criar um modelo de Machine Learning criado através do método CRSIP-DS. Entendendo o problema de negócio, coletando e limpando os dados, criando um dataset único, pensar em hipóteses de negócio para novas features, conferir as hipóteses na análise exploratória de dados (EDA), modelando os dados para a implementação nos algoritmos, implementando-os, avaliando a performance dos mesmos e botando o modelo em produção.</p>
+<div align="center">
+    <img src="./arquivos_de_trabalho/img/crisp_ds.png" width=600/>
+</div>
 <hr>
 <h2>3. Exploratory Data Analysis (Algumas Hipóteses)</h2>
 <Ul>
@@ -56,7 +59,7 @@
 </Ul>
 <hr>
 <h2>4. Resultado</h2>
-<p>Na primeira tabela conseguimos ver resultado da predição com o seu melhor e pior cenário, na segunta temos as lojas nas quais o algoritimo desempenhou melhor e na terceira temos as lojas nas quais o algoritimo desempenhou pior utilizando como parâmetro o MAE (Erro Absoluto Médio) e o MAPE (Erro Percentual Médio Absoluto)</p>
+<p>Na primeira tabela conseguimos ver resultado da predição com o seu melhor e pior cenário, na segunda temos as lojas nas quais o algoritmo desempenhou melhor e na terceira temos as lojas nas quais o algoritmo desempenhou pior utilizando como parâmetro o MAE (Erro Absoluto Médio) e o MAPE (Erro Percentual Médio Absoluto)</p>
 <h3><b>Resultado Geral</b></h3>
 
 |Cenários       |Valores         |
@@ -91,5 +94,12 @@
 <hr>
 <h2>5. Próximos Passos</h2>
 <ul>
-    <li>As lojas que tem o MAPE muito alto podem ser criado modelos específicos para elas, como colocar variáveis. O CFO pode determinar uma melhor predição dessas lojas e assim voltando para o CRISP ou podendo descartar essas lojas.</li>
-<ul>
+    <li>As lojas que têm o MAPE muito alto podem ser criado modelos específicos para elas, como colocar variáveis. O CFO pode determinar uma melhor predição dessas lojas e assim voltando para o CRISP ou podendo descartar essas lojas.</li>
+</ul>
+<hr>
+<h2>6. Agradecimento</h2>
+<p><b>Muito Obrigado por ter visto meu projeto</b></p>
+<p>Caso queira ver mais projetos meus ou entrar em contato comigo:</p>
+<a href="https://rafafaelfilho.github.io/portfolio_projetos/">Outros Projetos</a></br>
+<a href="https://github.com/RafafaelFilho/portfolio_projetos">Portfólio</a></br>
+<a href="https://www.linkedin.com/in/rafael-filho/">LinkedIn</a>
